@@ -1,5 +1,8 @@
 require 'pry'
 
+collection = (1..100).to_a
+
+puts "Here is the first set and the answer acc. to learn.co"
 def my_find(collection)
   i = 0
   while i < collection.length
